@@ -1,0 +1,63 @@
+
+.topnav{
+    font-size: 75px;
+    font-weight: 500;
+    width: 100%;
+}
+body{
+    background-image: linear-gradient( to left, rgb(181, 231, 223), white); 
+    padding: 0px 40px;
+}
+.topnav-list ul li {
+    list-style: none;
+    font-weight: 500;
+}
+.topnav-list ul{
+    display: flex;
+    justify-content: space-between;
+}
+.topnav-list{
+    width: 60%;
+    float: right;
+}
+nav{
+    height: 55px;
+}
+.button{
+padding: 60px;
+}
+.login{
+    padding: 10px 60px;
+    background-color: transparent;
+    font-weight: 600;
+    border-radius: 10px;
+
+}
+.lets-Explore{
+    padding: 10px 60px;
+    background-color: blue;
+    color: rgb(173, 172, 168);
+    font-weight: 600;
+    border-radius: 10px;
+
+}
+.content{
+    padding-top: 15%;
+}
+.hello{
+    color: orange;
+    font-size: 60px;
+}
+.fun{
+    font-size: 55px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.spacesuit{
+    width: 50%;
+    padding: 40;
+}
+
